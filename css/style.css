@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/12348956_4964089.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 25vh;
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+header h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: 2em;
+    width: 13vw;
+    text-align: center;
+    border-bottom: 2px dashed black;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+}
+
+.art {
+    color: red!important;
+}
+
+.no-border {
+    border: none;
+    display: block;
+    width: 25vw;
+}
+
+.neguinha {
+    color: blue;
+}
+
+header input{
+    padding: 10px;
+    border: none;
+    border-left: 1px solid rgba(150, 150, 150, 0.233);
+    border-bottom: 1px solid rgba(150, 150, 150, 0.233);
+    font-size: 0.7em;
+    width: 15vw;
+}
+
+nav {
+    background-color: rgb(29, 29, 29);
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    font-family: 'Inter Tight', sans-serif;
+    justify-content: space-around;
+    padding: 10px;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+@media (max-width: 800px){
+
+    .header{
+        width: 85vw;
+    }
+
+    .logos {
+        width: 35vw;
+    }
+
+    .logos h1 {
+        font-size: 1.5em;
+        width: 42vw;
+    }
+
+    #eda {
+        width: 25vw;
+    }
+
+    .header input {
+        width: 33vw;
+    }
+
+    nav ul {
+        width: 100vw;
+    }
+}
